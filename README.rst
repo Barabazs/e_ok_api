@@ -17,3 +17,11 @@ Usage
 
 	$ pip install e-ok-api
 	
+	
+Examples
+--------
+.. code-block:: python
+	y = TimeEOK()
+	y.login('Username', 'Password')
+	my_user_id = y.get_userid()
+	print(y.get_remaining_workhours(my_user_id))
