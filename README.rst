@@ -15,5 +15,5 @@ Usage
 
 .. code-block:: bash
 
-	$ pip install e_ok_api
+	$ pip install e-ok-api
 	
