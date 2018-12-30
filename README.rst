@@ -21,6 +21,7 @@ Usage
 Examples
 --------
 .. code-block:: python
+
 	y = TimeEOK()
 	y.login('Username', 'Password')
 	my_user_id = y.get_userid()
