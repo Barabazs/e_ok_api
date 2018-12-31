@@ -13,7 +13,7 @@ requirements = ['demjson', 'requests', 'lxml']
 
 setuptools.setup(
     name='e_ok_api',
-    version='0.1.0',
+    version='0.1.1',
     author='dotEsuS',
     author_email='',
     description='Unofficial API wrapper for Liantis e-OK',
