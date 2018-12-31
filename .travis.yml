@@ -8,7 +8,7 @@ deploy:
   api_key:
     secure: jfNebcOuFI96w0VacMuo7MD8qCpK2FyntJgPY7i7kYFYBAUR+UKX23w8qa9hCw6wiTWxHJBtH2uD04Z7RokwCxSMoaEFVmA+33ode9eiAaP6oy0JHXOe8hr5Xa9uo2MOWz9XAXmgfGCI9mv8VosN+dIsamH5qavmw6iCNYwCOMcBJwyf1GtuILVRJ/MMNYhJ+09AiEZFff1w7VhhxhsZbZxV3qgZjTwJyWfXKvcVMDwKpIodqp+Vv9LO96w68hBNArXgCUlLZoSBe22GGpx2Mvcs0jZGNhly5rKWaJulNnqd6ifbdCNQi5i6lHwGKXgWHjJYjMe+wPUmtGkH7BeKWSanP+De2+wllqU3PxRSlhmFVRTB186bRZ57vhvmxNjehiSU51B+ds181v2tZXKNeb8Tb46aASgR3nywIN+S+KuQ61lQiNSzm8Nfs6l+VVoWmC/8Ps64kqGMEN23lJ2Wi/ZoO3hitFhUHsOd8CabSRnPXs2zSRqeSejCIycz1kPSOQKTawoLNcJC9YPOMRCrPSljtaMZtHdz3KCKzLPeYEN65/iOuw2KThfgTwtwYY/uAdKf98Sp+ef0jvOSERlZzKHyBdGMUcbffV0GF1YW6/llfdaqlxESpY3gr7jAzmxtxPF7MZsgRYgjNeYXUmDIMulfYfWqaheKhye+056QJEA=
   file_glob: true
-  file: dist/*
+  file: dist/*.whl
   skip_cleanup: true
   on:
     repo: dotEsuS/e_ok_api
