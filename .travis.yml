@@ -20,5 +20,4 @@ deploy:
     secure: TK9CYIkQLuEzNKdhkk/VxCVCCymntLj6Qdk5i5i9IQNGxC1R1vtNuS4+bBPDaY7VzmAYcegAfSXV4RdO+gsNgdqNEu8++lF3JslN0NXe8oy5qD/93KtcSJ4cSFHYIKx3gWKZMNJrKaFxT5tVWKg+zL3ZTL2/2yaFFGkj400NSkkvZgh7WuQuS7wFRODnIgfJ5PPTsCy7n1Jvt/x3ZmbP01tKzvRsxQaP6b72TzjoTe6YREJjHbRHVdXYYuc7o7/HFP816d3ynnx6TTSfoKdWAUaPBK8fba0Tjea6lwxqC3NvLXexc4FGyf74P9hbTHMp3sQmJQFMDLMQ7WrOWawPfF8q99xjsoPrJJ7EIH/+3sC+h4mW/JVeJ8QarZMCBi6amod93hGiwVi08iptnOPjR3CfoS5yVc4kgSNFx3kIM3S+ZqrgRHgYM4MOIrTDvb6xiZlDjxm5ObmdqGv0w4or+oQ7z+1WAPoccWUqgcYtuX8a9SetBuZrX+ZfmF6XlGmhyjipDjn79joNo3FoW1Vk9bW8bLD7572lVzaTavIWYMmdV7/aWY5vQPFh/7sRgGyQ4hIB1HLK8gPc3nyjpmX+yWKWUCCiis+VPI7lcqAN+cq+LgwXkprzcvBqPAeHZE2SjOShDqdC38mh/GR7vvdXr25UwBujIKDbwaZsOyKmpfo=
   on:
     tags: true
-    # repo: dotEsuS/e_ok_api
     python: 3.6
