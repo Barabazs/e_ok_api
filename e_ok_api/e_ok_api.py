@@ -42,24 +42,25 @@ class TimeEOK:
         return_id = demjson.decode(match[0])
         return str(return_id)
 
-    def get_todays_logs(self, mdwid):
-        todays_logs = self.session.get(START_URL + 'api/TijdLog/GetTijdLogsVanMedewerker/' + mdwid)
+    def get_todays_logs(self, userid):
+        todays_logs = self.session.get(START_URL + 'api/TijdLog/GetTijdLogsVanMedewerker/' + userid)
         # return(todays_logs.text)
         # Convert the javascript object to Python object
         return demjson.decode(todays_logs.text)
 
-    def get_todays_workhours(self, mdwid):
-        todays_workhours = self.session.get(START_URL + 'api/TijdLog/GetWerkurenMedewerker/' + mdwid)
+    def get_todays_workhours(self, userid):
+        todays_workhours = self.session.get(START_URL + 'api/TijdLog/GetWerkurenMedewerker/' + userid)
         return todays_workhours.text
 
-    def get_remaining_workhours(self, mdwid):
-        remaining_workhours = self.session.get(START_URL + 'api/TijdLog/GetNegPresterenMedewerker/' + mdwid)
+    def get_remaining_workhours(self, userid):
+        remaining_workhours = self.session.get(START_URL + 'api/TijdLog/GetNegPresterenMedewerker/' + userid)
         return remaining_workhours.text
 
-    def get_statistics(self, mdwid):
+    def get_statistics(self, userid):
         # TODO Implement method to get_statistics
         return
 
-    def get_organisation_counter_settings(self, mdwid):
-        counter_settings = self.session.get(START_URL + 'api/TijdLog/orgCon_counter_settings?mdwid=' + mdwid)
+    def get_organisation_counter_settings(self, userid):
+        counter_settings = self.session.get(START_URL + 'api/TijdLog/orgCon_counterSettings?mdwid=' + userid)
         return demjson.decode(counter_settings.text)
+
