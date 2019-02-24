@@ -6,6 +6,13 @@ e_ok_api
 
 Unofficial API wrapper for Liantis [e-OK](https://www.e-ok.be/).
 
+Important
+=====
+
+This API wrapper is now obsolete since Liantis updated their API.
+I've rewritten the wrapper and will probably update the new one more frequently.
+Please use [python-liantis-ess-api](https://github.com/dotEsuS/python-liantis-ess-api).
+
 Usage
 =====
 
